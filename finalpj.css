@@ -1,0 +1,102 @@
+.jumbotron .container {
+position: relative;
+top: 28%;
+z-index: 4;
+text-align: center;
+max-width: 100%;
+
+}
+div {
+display: block;
+}
+
+.jumbotron {
+background: no-repeat center right fixed url(nurburgring-track-forest-cars.jpg);
+
+-webkit-background-size: 100%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='nurburgring-track-forest-cars.jpg', sizingMethod='scale')";
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='nurburgring-track-forest-cars.jpg', sizingMethod='scale');
+
+margin-bottom: 0px;
+padding: 0px;
+}
+.jumbotron .overlay { background:linear-gradient(to bottom, #33ccff 40%, #ff99cc 100%); position: absolute; top: 0px; bottom: 30px; left: 0px; right: 0px; opacity: 0.80; filter:alpha(opacity=75); z-index: 3; }
+.jumbotron .container > * { text-align: center; color: #FFFFFF; }
+.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
+.jumbotron .container .lead { font-size: 28px; }
+.jumbotron .scroll-down .glyphicon {
+color: #FFFFFF;
+font-size: 30px;
+padding-right: 2px;
+padding-top: 20px;
+
+animation-name: wiggle;
+animation-duration: 1.2s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: normal;
+}
+.jumbotron .scroll-down:hover .glyphicon { padding-top: 25px;   display: block;}
+
+.glyphicon {
+position: relative;
+top: 1px;
+display: inline-block;
+font-family: 'Glyphicons Halflings';
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.jumbotron .scroll-down {
+height: 50px;
+width: 65px;
+display: block;
+position: absolute;
+bottom: 55px;
+right: 85%;
+background-color: #77bfc9;
+text-align: center;
+z-index: 6;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.down {
+position: relative;
+display: inline-block;
+}
+
+.top {
+
+}
+
+.menu {
+position:             absolute;
+z-index:              1;
+display:              none;
+background-color:     rgba(230,230,230,0.5);
+width:                30%;
+line-height:          3em;
+}
+
+.menu ul {
+list-style-type:      none;
+padding:              0;
+}
+
+.menu li {
+text-align:          center;
+border:              2px solid white;
+}
