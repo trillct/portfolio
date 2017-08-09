@@ -1,0 +1,247 @@
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
+
+<!-- my stylesheet added here  -->
+<!-- <link rel="stylesheet" type="text/css" href="style/style.css">
+
+<body>
+
+<header>
+<a href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+
+</header>
+
+<div class="menu">
+<ul>
+  <a href="#"><li>Link1</li></a>
+  <a href="#"><li>Link2</li></a>
+  <a href="#"><li>Link3</li></a>
+  <a href="#"><li>Link4</li></a>
+</ul>
+</div> -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="df.js"></script> -->
+
+
+
+
+
+<!-- <div class="container">
+<div class="row"> -->
+    <!--Collapsable navbar-->
+    <!-- <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Logo</span>
+        </div>
+
+        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-menu-left leftarrow" aria-hidden="true"></span>
+          </button>
+          <ul class="nav navbar-nav mylist" style="align-items:center">
+</body> --> -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <style>
+    body {
+
+  overflow-x: hidden;
+}
+
+
+
+h1 {
+  max-width: 600px;
+  position: absolute;
+  top: 10%;
+  left:0;
+  right:0;
+  margin:0 auto;
+  width: 50%;
+  height: 100px;
+}
+
+
+
+
+code {
+    padding: 2px;
+    background: #ddd;
+}
+
+
+
+
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html, body { height: 100%; width: 100%; font-family: 'Calligraffitti', cursive, Helvetica, Arial, sans-serif; }
+
+
+
+
+.navigation {
+
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+
+
+  list-style: none;
+  background: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-item a {
+
+  display: block;
+  padding: 1em;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.2s, background 0.5s;
+}
+
+
+
+
+.nav-item a:hover {
+  color: #c74438;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+}
+
+
+
+
+
+
+
+
+.site-wrap {
+
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white;
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+
+
+  padding: 4em;
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/mac-wallpapers-15.jpg");
+  background-size: 100%;
+  width:145%;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+.nav-trigger {
+
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+
+
+
+label[for="nav-trigger"] {
+    /* Navigation Button*/
+
+  position: fixed;
+  left: 15px; top: 15px;
+  z-index: 2;
+
+
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-image: url("http://image.flaticon.com/icons/png/512/52/52152.png");
+  background-size: contain;
+}
+
+
+
+.nav-trigger + label, .site-wrap {
+  transition: left 0.2s;
+}
+
+
+
+
+.nav-trigger:checked + label {
+  left: 215px;
+}
+
+
+
+
+.nav-trigger:checked ~ .site-wrap {
+  left: 200px;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+    </style>
+    <body>
+         <ul class="navigation">
+    <li class="nav-item"><a href="#">Home</a></li>
+
+    <li class="nav-item"><a href="#">Portfolio</a></li>
+
+    <li class="nav-item"><a href="#">Hobbies</a></li>
+
+    <li class="nav-item"><a href="#">Goals</a></li>
+
+    <li class="nav-item"><a href="#">Achievements</a></li>
+
+    <li class="nav-item"><a href="#">Contact Me</a></li>
+</ul>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+
+<label for="nav-trigger"></label>
+
+<div class="site-wrap">
+
+  <h1 align="center"> W E L C O M E </h1>
+
+  <h3> </h3>
+
+   </div>
+
+</body>
+
+</html>
